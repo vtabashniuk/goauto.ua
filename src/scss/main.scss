@@ -1,3 +1,6 @@
 @import '~normalize.css/normalize.css';
-@import './title';
+@import './variables';
+@import './base';
 @import './body';
+@import './header';
+@import './title';

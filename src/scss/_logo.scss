@@ -1,0 +1,23 @@
+@font-face {
+  font-family: EuropeExt;
+  src: url("../assets/fonts/europeext-bold.otf") format("opentype");
+}
+
+.logo {
+  font-family: EuropeExt, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  line-height: 1;
+  text-transform: uppercase;
+
+  a:any-link {
+    color: $accentColor;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}

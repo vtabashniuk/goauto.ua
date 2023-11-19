@@ -19,10 +19,7 @@ const optimization = () => {
   };
 
   if (isProd) {
-    configObj.minimizer = [
-      new TerserWebpackPlugin(),
-      new CssMinimizerPlugin(),
-    ];
+    configObj.minimizer = [new TerserWebpackPlugin(), new CssMinimizerPlugin()];
   }
   return configObj;
 };
@@ -91,6 +88,13 @@ module.exports = {
         type: "asset/resource",
         generator: {
           filename: `img/${filename("[ext]")}`,
+        },
+      },
+      {
+        test: /\.(woff|woff2|ttf|otf|eot)$/,
+        type: "asset/resource",
+        generator: {
+          filename: `assets/fonts/${filename("[ext]")}`,
         },
       },
     ],

@@ -1,0 +1,90 @@
+@import "./logo";
+@import "./menuContainer";
+
+.header {
+  @media screen and (max-width: 767px) {
+    position: relative;
+
+    &::after {
+      background-color: $borderColor;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 1px;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    border-radius: 10px;
+    padding: 12px;
+    width: 802px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 20px;
+    width: 1250px;
+  }
+}
+
+.header-container {
+  background-color: $secondaryBackgroundColor;
+  display: flex;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  display: inline-flex;
+  margin: 0 16px 0 0;
+  padding: 0;
+
+  &-icon {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+.nav-container {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.nav-section {
+  display: flex;
+}
+
+.site-navigation {
+  display: flex;
+}
+
+.shopping-cart-button {
+  align-items: center;
+  border: 1px solid $borderColor;
+  border-radius: 5px;
+  display: inline-flex;
+  height: 32px;
+  justify-content: center;
+  width: 32px;
+
+  &-icon {
+    height: 12px;
+    width: 12px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+
+    &-icon {
+      height: 17px;
+      width: 17px;
+    }
+  }
+}

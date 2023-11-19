@@ -7,5 +7,48 @@
     <title>Goauto.ua</title>
   </head>
   <body>
+    <header class="header">
+      <div class="header-container">
+        <button
+          type="button"
+          class="menu-button"
+          aria-label="Меню навігації"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-button-icon">
+            <use href="./img/svg/icons.svg#menu-open-icon"></use>
+          </svg>
+        </button>
+        <div class="nav-container">
+          <nav class="nav-section">
+            <p class="logo"><a href="./">goauto.ua</a></p>
+            <div class="menu-container" id="mobile-menu">
+              <ul class="site-navigation">
+                <li>головна</li>
+                <li>шини</li>
+                <li>диски</li>
+                <li>доставка та оплата</li>
+                <li>клієтам</li>
+                <li>контакти</li>
+              </ul>
+              <div class="help-section">
+                <p><a href="tel:+380980808308">0980808308</a></p>
+                <p>замовити консультацію</p>
+              </div>
+            </div>
+          </nav>
+          <button
+            type="button"
+            class="shopping-cart-button"
+            aria-label="Корзина"
+          >
+            <svg class="shopping-cart-button-icon">
+              <use href="./img/svg/icons.svg#shopping-cart-icon"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
