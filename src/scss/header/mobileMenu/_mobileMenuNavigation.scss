@@ -1,0 +1,63 @@
+.mobile-menu-navigation {
+  display: grid;
+  padding-bottom: 28px;
+  row-gap: 15px;
+
+  li {
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.main-menu-item {
+  font-weight: 600;
+}
+
+.contact-section {
+  font-size: 20px;
+  padding: 28px 0;
+
+  a:any-link {
+    color: $primaryTextColor;
+  }
+}
+
+.working-hours {
+  color: $secondaryTextColor;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-top: 6px;
+}
+
+.social {
+  font-size: 14px;
+  line-height: 1.2;
+
+  p {
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &-list {
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: repeat(1, 40px);
+    margin-top: 15px;
+
+    &-icon {
+      height: 20px;
+      width: 20px;
+    }
+
+    &-item {
+      align-items: center;
+      background-color: $secondaryBackgroundColor;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

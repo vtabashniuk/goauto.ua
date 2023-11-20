@@ -1,0 +1,20 @@
+@import "../../buttons/companyMenuButton";
+
+.company-mobile-menu {
+  background-color: $secondaryBackgroundColor;
+  border-radius: 8px;
+  display: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px;
+  row-gap: 16px;
+  width: fit-content;
+
+  li::first-letter {
+    text-transform: uppercase;
+  }
+
+  &.is-open {
+    display: grid;
+  }
+}

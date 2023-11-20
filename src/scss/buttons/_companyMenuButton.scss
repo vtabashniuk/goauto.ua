@@ -1,0 +1,36 @@
+.company-menu-button,
+.menu-navigation-button {
+  background-color: transparent;
+  border: none;
+  width: fit-content;
+
+  @media screen and (max-width: 1249px) {
+    &.is-open {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.button-label {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-between;
+
+  p::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.dropdown-arrow {
+  fill: $primaryTextColor;
+  height: 14px;
+  margin-left: 2px;
+  transform: rotate(180deg);
+  width: 14px;
+
+  &.is-open {
+    fill: $accentColor;
+    transform: none;
+  }
+}

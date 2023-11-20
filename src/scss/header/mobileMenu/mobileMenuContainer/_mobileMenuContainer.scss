@@ -1,0 +1,16 @@
+@import "../mobileMenuNavigation";
+@import "../companyMobileMenu";
+
+.mobile-menu-container {
+  display: none;
+  left: 0;
+  padding: 28px 16px 50px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 99;
+
+  &.is-open {
+    display: block;
+  }
+}

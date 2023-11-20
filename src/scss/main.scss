@@ -1,6 +1,6 @@
-@import '~normalize.css/normalize.css';
-@import './variables';
-@import './base';
-@import './body';
-@import './header';
-@import './title';
+@import "~normalize.css/normalize.css";
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap";
+@import "./variables";
+@import "./base";
+@import "./body";
+@import "./header/header";

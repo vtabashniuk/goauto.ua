@@ -1,0 +1,14 @@
+@import "./logo";
+@import "./menuNavigation";
+
+.nav-container {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.nav-section {
+  display: flex;
+  flex-grow: 1;
+}

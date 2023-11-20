@@ -4,6 +4,9 @@
 }
 
 .logo {
+  align-items: center;
+  color: $accentColor;
+  display: inline-flex;
   font-family: EuropeExt, sans-serif;
   font-size: 12px;
   font-style: normal;
@@ -12,12 +15,7 @@
   line-height: 1;
   text-transform: uppercase;
 
-  a:any-link {
-    color: $accentColor;
-  }
-
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
-    letter-spacing: normal;
   }
 }
