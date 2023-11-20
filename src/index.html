@@ -96,10 +96,17 @@
                 <li class="menu-navigation-item"><p>диски</p></li>
                 <li class="menu-navigation-item"><p>доставка та оплата</p></li>
                 <li class="menu-navigation-item">
-                  <button type="button" class="menu-navigation-button" aria-expanded="false" >
+                  <button
+                    type="button"
+                    class="menu-navigation-button"
+                    aria-expanded="false"
+                  >
                     <div class="button-label">
                       <p class="main-menu-item">клієнтам</p>
-                      <svg class="dropdown-arrow" menu-nav-button-dropdown-arrow>
+                      <svg
+                        class="dropdown-arrow"
+                        menu-nav-button-dropdown-arrow
+                      >
                         <use
                           href="./img/svg/icons.svg#dropdown-menu-arrow"
                         ></use>
@@ -131,5 +138,52 @@
         </div>
       </div>
     </header>
+    <section>
+      <form action="" class="form-tyres">
+        <fieldset>
+          <legend>шини</legend>
+          <select aria-label="width" name="tyre-width" id="tyre-width">
+            <option value="">ширина</option>
+          </select>
+          <select aria-label="height" name="tyre-height" id="tyre-height">
+            <option value="">профіль</option>
+          </select>
+          <select aria-label="radius" name="tyre-radius" id="tyre-radius">
+            <option value="">діаметр</option>
+          </select>
+          <select aria-label="season" name="tyre-season" id="tyre-season">
+            <option value="">сезон</option>
+          </select>
+          <select aria-label="brand" name="tyre-brand" id="tyre-brand">
+            <option value="">бренд</option>
+          </select>
+          <button type="button">підібрати шини</button>
+        </fieldset>
+      </form>
+      <form action="" class="form-wheels">
+        <fieldset>
+          <legend>диски</legend>
+          <select aria-label="bolting" name="wheel-bolting" id="wheel-bolting">
+            <option value="">розболтовка</option>
+          </select>
+          <select aria-label="diameter" name="wheel-diameter" id="wheel-diameter">
+            <option value="">діаметр</option>
+          </select>
+          <select aria-label="offset" name="wheel-offset" id="wheel-offset">
+            <option value="">виліт</option>
+          </select>
+          <select aria-label="width" name="wheel-width" id="wheel-width">
+            <option value="">ширина</option>
+          </select>
+          <select aria-label="hub" name="wheel-hub" id="wheel-hub">
+            <option value="">ступиця</option>
+          </select>
+          <select aria-label="brand" name="wheel-brand" id="wheel-brand">
+            <option value="">бренд</option>
+          </select>
+          <button type="button">підібрати диски</button>
+        </fieldset>
+      </form>
+    </section>
   </body>
 </html>
