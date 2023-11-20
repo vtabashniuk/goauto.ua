@@ -138,51 +138,55 @@
         </div>
       </div>
     </header>
-    <section>
+    <section class="form-container">
       <form action="" class="form-tyres">
-        <fieldset>
-          <legend>шини</legend>
+        <p class="form-title">шини</p>
+        <div class="select-group">
           <select aria-label="width" name="tyre-width" id="tyre-width">
-            <option value="">ширина</option>
+            <option value="" class="tyres-option">Ширина</option>
           </select>
           <select aria-label="height" name="tyre-height" id="tyre-height">
-            <option value="">профіль</option>
+            <option value="" class="tyres-option">Профіль</option>
           </select>
           <select aria-label="radius" name="tyre-radius" id="tyre-radius">
-            <option value="">діаметр</option>
+            <option value="" class="tyres-option">Діаметр</option>
           </select>
           <select aria-label="season" name="tyre-season" id="tyre-season">
-            <option value="">сезон</option>
+            <option value="" class="tyres-option">Сезон</option>
           </select>
           <select aria-label="brand" name="tyre-brand" id="tyre-brand">
-            <option value="">бренд</option>
+            <option value="" class="tyres-option">Бренд</option>
           </select>
-          <button type="button">підібрати шини</button>
-        </fieldset>
+        </div>
+        <button type="button">підібрати шини</button>
       </form>
       <form action="" class="form-wheels">
-        <fieldset>
-          <legend>диски</legend>
+        <p class="form-title">диски</p>
+        <div class="select-group">
           <select aria-label="bolting" name="wheel-bolting" id="wheel-bolting">
-            <option value="">розболтовка</option>
+            <option value="">Розболтовка</option>
           </select>
-          <select aria-label="diameter" name="wheel-diameter" id="wheel-diameter">
-            <option value="">діаметр</option>
+          <select
+            aria-label="diameter"
+            name="wheel-diameter"
+            id="wheel-diameter"
+          >
+            <option value="">Діаметр</option>
           </select>
           <select aria-label="offset" name="wheel-offset" id="wheel-offset">
-            <option value="">виліт</option>
+            <option value="">Виліт</option>
           </select>
           <select aria-label="width" name="wheel-width" id="wheel-width">
-            <option value="">ширина</option>
+            <option value="">Ширина</option>
           </select>
           <select aria-label="hub" name="wheel-hub" id="wheel-hub">
-            <option value="">ступиця</option>
+            <option value="">Ступиця</option>
           </select>
           <select aria-label="brand" name="wheel-brand" id="wheel-brand">
-            <option value="">бренд</option>
+            <option value="">Бренд</option>
           </select>
-          <button type="button">підібрати диски</button>
-        </fieldset>
+        </div>
+        <button type="button">підібрати диски</button>
       </form>
     </section>
   </body>
