@@ -2,7 +2,7 @@
 .form-wheels {
   background-color: $secondaryBackgroundColor;
   border-radius: 10px;
-  padding: 30px 20px;
+  padding: 30px 15px;
 }
 
 .form-title {
@@ -21,7 +21,17 @@
   padding: 30px 0;
 
   select {
+    appearance: none;
+    background-color: $secondaryBackgroundColor;
+    background-image: url("../img/svg/iconCaretDown.svg");
+    background-position-x: calc(100% - 5px);
+    background-position-y: calc(100% - 8px);
+    background-repeat: no-repeat;
+    border: none;
+    border-bottom: 1px solid $secondaryTextColor;
     color: $secondaryTextColor;
     font-size: 14px;
+    line-height: 1;
+    padding: 8px 0;
   }
 }

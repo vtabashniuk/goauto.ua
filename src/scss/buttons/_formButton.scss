@@ -1,0 +1,26 @@
+.form-button {
+  background-color: $accentColor;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba($accentColor, 0.4);;
+  color: $primaryBackgroundColor;
+  height: 50px;
+  padding: 16px 0;
+  width: 100%;
+
+  &-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &:active {
+    box-shadow: none;
+    transform: translateY(2px)
+  }
+}
