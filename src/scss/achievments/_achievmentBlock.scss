@@ -1,0 +1,34 @@
+.achievment-block {
+  padding: 17px 9px 17px 0;
+
+  &-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &-text {
+    color: $articleTextColor;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    &:not(:last-child) {
+      border-bottom: 1px solid $articleSeparatorColor;
+    }
+  }
+}
+
+.achievment-icon {
+    height: 35px;
+    margin-bottom: 30px;
+    margin-top: 35px;
+    width: 35px;
+}

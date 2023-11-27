@@ -1,0 +1,9 @@
+.achievments-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: -12px;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
