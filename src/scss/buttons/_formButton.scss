@@ -2,7 +2,7 @@
   background-color: $accentColor;
   border: none;
   border-radius: 10px;
-  box-shadow: 2px 2px 4px rgba($accentColor, 0.4);;
+  box-shadow: 2px 2px 4px rgba($accentColor, 0.4);
   color: $primaryBackgroundColor;
   height: 50px;
   padding: 16px 0;
@@ -21,6 +21,6 @@
 
   &:active {
     box-shadow: none;
-    transform: translateY(2px)
+    transform: translateY(2px);
   }
 }
