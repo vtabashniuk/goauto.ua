@@ -2,10 +2,15 @@
 .form-wheels {
   background-color: $secondaryBackgroundColor;
   border-radius: 10px;
+  flex-grow: 1;
   padding: 30px 15px;
 
   @media screen and (min-width: 768px) {
-    padding: 30px 60px 40px 40px;
+    padding: 30px 62px 40px 40px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 30px 40px 40px 20px;
   }
 }
 
@@ -15,6 +20,11 @@
 
   &::first-letter {
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    text-align: center;
   }
 }
 
@@ -58,5 +68,9 @@
       font-size: 16px;
       padding-left: 10px;
     }
+  }
+
+  @media screen and (min-width: 1280px) {
+    gap: 18px 60px;
   }
 }
