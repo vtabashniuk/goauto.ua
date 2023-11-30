@@ -1,0 +1,11 @@
+.achievment-block-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    flex-flow: row wrap;
+    padding-top: 40px;
+    row-gap: 35px;
+  }
+}

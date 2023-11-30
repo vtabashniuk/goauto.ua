@@ -1,9 +1,13 @@
 .achievments-title {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: -12px;
 
   &::first-letter {
     text-transform: uppercase;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    padding-bottom: 20px;
   }
 }
